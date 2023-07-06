@@ -280,4 +280,6 @@ function inteligencia(){
       }
       provaveislugares = provaveislugares.filter(elemento => !locais.includes(elemento));
     }
+  }
+}
 

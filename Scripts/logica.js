@@ -2,27 +2,27 @@ let zerada = [];
 let transparente;
 let placarjogador = 0;
 let placarcomputador = 0;
-let tocou = false
+let tocou = false;
 
 let texturaAtual;
 
 function preload() {
-  texturaSubmarino = loadImage("sprite.png");
-  texturaAgua = loadImage("agua.png")
-  texturaExplosao = loadImage("explosao.png")
-  texturaFundo = loadImage("fundo.png")
-  texturaAguaexplosao = loadImage("aguaexplosao.png")
-  texturaCanoa = loadImage("canoa.png")
-  texturaVeleiro = loadImage("veleiro.png")
-  texturaNavio = loadImage("navio.png")
-  texturaCargueiro = loadImage("cargueiro.png")
-  texturaAguapassada = loadImage("aguapassada.png")
-  
-  texturaPassou = loadImage("gta.jpeg")
-  texturaFalhou = loadImage("gtafalhou.png")
-  somExplosao = loadSound("explosao.mp3")
-  somPassou = loadSound("passou.mp3")
-  somFalhou = loadSound("title.mp3")
+  texturaSubmarino = loadImage("Images/sprite.png");
+  texturaAgua = loadImage("Images/agua.png");
+  texturaExplosao = loadImage("Images/explosao.png");
+  texturaFundo = loadImage("Images/fundo.png");
+  texturaAguaexplosao = loadImage("Images/aguaexplosao.png");
+  texturaCanoa = loadImage("Images/canoa.png");
+  texturaVeleiro = loadImage("Images/veleiro.png");
+  texturaNavio = loadImage("Images/navio.png");
+  texturaCargueiro = loadImage("Images/cargueiro.png");
+  texturaAguapassada = loadImage("Images/aguapassada.png");
+  texturaPassou = loadImage("Images/gta.jpeg");
+  texturaFalhou = loadImage("Images/gtafalhou.png");
+
+  somExplosao = loadSound("Sounds/explosao.mp3");
+  somPassou = loadSound("Sounds/passou.mp3");
+  somFalhou = loadSound("Sounds/title.mp3");
   texturaAtual = texturaAgua;
 }
 

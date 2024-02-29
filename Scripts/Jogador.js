@@ -77,7 +77,7 @@ function embarcacoes() {
       alturaSubmarino
     );
     // rect(xSubmarino, ySubmarino, 20, 20);
-    rect( xCanoa, yCanoa, larguraCanoa, alturaCanoa);
+    rect(xCanoa, yCanoa, larguraCanoa, alturaCanoa);
     rect(xVeleiro, yVeleiro, larguraVeleiro, alturaVeleiro);
     rect(xNavio, yNavio, larguraNavio, alturaNavio);
     rect(xCargueiro, yCargueiro, larguraCargueiro, alturaCargueiro);

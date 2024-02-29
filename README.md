@@ -1,2 +1,2 @@
 # BatalhaNaval
-Jogo de batalha Naval feito com o P5
+Jogo de batalha Naval feito com o P5*JS

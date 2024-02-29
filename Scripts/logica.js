@@ -172,7 +172,7 @@ function mouseClicked(){
   if (mouseX > 170 && mouseX < 230 && mouseY > 560 && mouseY < 590 && escolher) {
     botao();
   } 
-  // tiro();
+  tiro();
 }
 function tiro(){
   if(!escolher && mouseX > 425 && mouseX < 825 && mouseY > 0 && mouseY < 400){
@@ -242,7 +242,7 @@ function mouseDragged() {
   if (carregandoCargueiro) {
     movCargueiro();
   } 
-  tiro();
+  // tiro();
 }
 
 function oceano() {
